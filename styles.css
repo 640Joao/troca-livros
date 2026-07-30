@@ -30,6 +30,8 @@ a{
     color: rgb(121, 15, 15);
     text-decoration: none;
     display: inline-block;
+    padding: 10px 5px 10px 5git px;
+    transition: 0.9s;
 }
 a:hover{
     color:blue;
