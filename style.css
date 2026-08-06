@@ -92,7 +92,7 @@ p {
  
 .grade-livros{
     max-width: 97vw;
-    margin: 0px auto;
+    margin: 110px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -107,27 +107,27 @@ p {
     color: #1e156e;
 }
 .card-livro{
-    width: 400px;
+    width: 320px;
     text-align: center;
-    border-radius: 0px;
-    background-color: #1e156e;
-    padding: 10px;
-    box-shadow: 0px 10px 10px;
+    border-radius: 5px;
+    background-color: #edecf1;
+    padding: 0px;
+    box-shadow: 0px 5px 5px;
     overflow: hidden;
 }
 
 .categoria{
     width: 400px;
     text-align: center;
-    border-radius: 0px;
-    background-color: #736b97;
+    border-radius: 40px;
+    background-color: grey;
     padding: 10px;
-    box-shadow: 0px 10px 10px;
+    box-shadow: 0px 5px 5px;
     overflow: hidden;
 }
 
 .titulo{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .autores-livros{
@@ -153,7 +153,7 @@ p {
 .autores-livros{
     font-size: 16px;
     margin-bottom: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .btn-livros{
@@ -171,4 +171,3 @@ p {
 .btn-livros:hover {
     background-color: #0d23a0;
 }
-
