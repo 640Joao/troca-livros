@@ -171,3 +171,23 @@ p {
 .btn-livros:hover {
     background-color: #0d23a0;
 }
+
+/* Seção como funciona */
+
+.ajuda{
+    background-color: #004C94;
+    padding: 60px 20px;
+}
+
+.ajuda h2{
+    color: blue;
+    text-align: center;
+    margin: 40px;
+    font-size: 35px;
+}
+
+.todos-passos{
+    display: flex;
+    justify-content: center;
+    
+}
