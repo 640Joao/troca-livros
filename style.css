@@ -47,7 +47,7 @@ ul {
     text-decoration: none;
     color: white;
     padding: 5px;
-    transition: 0.3s;
+    transition: 0.5s;
     font-size: 20px;
 }
 
@@ -60,7 +60,7 @@ ul {
 
 .banner-principal {
     text-align: center;
-    padding: 10px 200px;
+    padding: 60px 200px;
     background-image: linear-gradient(#050e41, #45547e);
     color: white;
     min-height: 25vh;
@@ -84,6 +84,7 @@ p {
     padding: 10px 20px;
     border-radius: 20px;
     display: inline-block;
+    box-shadow: 5px 5px 5px rgb(8, 7, 100);
 }
 
 .foto-livro{
@@ -175,19 +176,36 @@ p {
 /* Seção como funciona */
 
 .ajuda{
-    background-color: #004C94;
+    background-image: linear-gradient(#050e41, #45547e);
     padding: 60px 20px;
 }
 
 .ajuda h2{
-    color: blue;
+    color: white;
     text-align: center;
     margin: 40px;
     font-size: 35px;
 }
 
-.todos-passos{
+.todo-passo{
     display: flex;
     justify-content: center;
-    
+    max-width: 85vw;
+    margin: 0 auto;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.numero-passo{
+    color: bisque;
+
+}
+
+.passo{
+    color: #fff;
+    width: 25vw;
+}
+.info-livro{
+    color: black;
 }
