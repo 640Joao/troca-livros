@@ -173,15 +173,14 @@ p {
     background-color: #0d23a0;
 }
 
-/* Seção como funciona */
 
 .ajuda{
     background-image: linear-gradient(#050e41, #45547e);
-    padding: 60px 20px;
+    padding: 70px 20px;
 }
 
 .ajuda h2{
-    color: white;
+    color: bisque;
     text-align: center;
     margin: 40px;
     font-size: 35px;
@@ -213,4 +212,80 @@ p {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+}
+
+footer{
+    background-image: linear-gradient(#45547e, #050e41);
+    color: white;
+    flex-direction: column;
+    padding: 70px 20px;
+}
+
+.footer-container{
+    display: flex;
+    max-width: 85vw;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 500;
+    color: bisque;
+}
+
+.footer-coluna {
+    flex: 1;
+    min-width: 280px;
+}
+
+.footer-coluna p {
+    color: #e2e8f0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.footer-coluna ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer-coluna a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: opacity 0.2s;
+}
+
+.footer-coluna a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footer-linha {
+    width: 100%;
+    max-width: 1200px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 30px auto 15px auto;
+}
+
+.footer-copy {
+    text-align: center;
+    color: #cbd5e1;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-coluna h4{
+    color: bisque;
 }
