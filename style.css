@@ -12,6 +12,14 @@
     "wdth" 100;
 }
 
+#inicio{
+    scroll-margin-top: 10vh;
+}
+
+#livros{
+    scroll-margin-top: 20vh;
+}
+
 header {
     background-color: rgb(5, 26, 82);
     color: white;
@@ -234,8 +242,9 @@ footer{
 }
 
 .footer-coluna {
-    flex: 1;
-    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    min-width: 15vw;
 }
 
 .footer-coluna p {
@@ -271,6 +280,17 @@ footer{
     margin-top: 15px;
 }
 
+.footer-social i {
+  font-size: 20px;
+  color: white;
+  margin: 15px;
+}
+.footer-social i:hover{
+  font-size: 20px;
+  color: bisque;
+  margin: 15px;
+}
+
 .footer-linha {
     width: 100%;
     max-width: 1200px;
@@ -289,3 +309,9 @@ footer{
 .footer-coluna h4{
     color: bisque;
 }
+
+.logo span{
+    color: white;
+
+}
+
