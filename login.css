@@ -1,0 +1,40 @@
+@import url(style.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 1142px;
+    height: 673px;
+    border: 2px solid blue;
+    margin: 10vh auto;
+    background-image: linear-gradient(orange (255, 141, 40, 35%,), blue (0, 75, 141, 35%));
+    display: flex ;
+}
+
+.sessao-imagem{
+    width: 522px;
+    height: 673px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-titulo{
+    text-align: center;
+}
+
+.area-titulo h2{
+    font-size: 36px;
+}
+
+.area-titulo, h1 span{
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+
+.area-titulo h2{
+    font-size: 24px;
+} 
